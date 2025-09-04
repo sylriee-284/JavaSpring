@@ -20,7 +20,7 @@ public class UserController {
 
     @RequestMapping("/")
     public String getHomePage() {
-        return "syl.html";// truy cap vao file tinh
+        return "hello";
     }
 }
 

@@ -10,5 +10,15 @@ public class HelloWorld {
         return "Hello World from Spring Boot, I am Syl1!";
     }
 
+    @GetMapping("/user")
+    public String userPage() {
+        return "Only users can see this page!";
+    }
+
+    @GetMapping("/admin")
+    public String adminPage() {
+        return "only admins can see this page!";
+    }
+
 }
  

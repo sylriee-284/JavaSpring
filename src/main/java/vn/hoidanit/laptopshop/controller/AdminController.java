@@ -32,7 +32,7 @@ public class AdminController {
             System.out.println("User info: " + syl1.getEmail() + " - " + syl1.getFullName() + " - " + syl1.getPhone());
         }
         this.userService.handleSaveUser(syl1);
-        return "admin/user/create";
+        return "redirect:/admin/user";
     }
 
 }

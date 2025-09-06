@@ -17,7 +17,27 @@
         </head>
 
         <body>
-
+            <div class="container">
+                <h2>User Detail</h2>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Email</th>
+                            <th>Full Name</th>
+                            <th>Phone</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>${user.id}</td>
+                            <td>${user.email}</td>
+                            <td>${user.fullName}</td>
+                            <td>${user.phone}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </body>
 
         </html>

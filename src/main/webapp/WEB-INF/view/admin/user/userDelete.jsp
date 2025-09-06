@@ -17,7 +17,15 @@
         </head>
 
         <body>
-
+            <div class="container mt-5  ">
+                <h1>Delete The User With ID = ${userId}</h1>
+                <div class="alert alert-danger" role="alert">
+                    Are you sure to delete this user?
+                </div>
+                <form action="/admin/user/delete/${userId}" method="post">
+                    <button type="submit" class="btn btn-danger">Confirm</button>
+                    <a href="/admin/user" class="btn btn-secondary">Cancel</a>
+            </div>
         </body>
 
         </html>
